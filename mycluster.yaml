@@ -1,0 +1,8 @@
+affinity:
+  enabled: false
+
+toleration:
+  enabled: false
+
+invoker:
+  options: "-Dwhisk.kubernetes.user-pod-node-affinity.enabled=false"
